@@ -18,7 +18,7 @@ public class QuickSortConcurrente {
     private static final ExecutorService ejecutor = Executors.newFixedThreadPool(NUM_HILOS);
 
     public static void main(String[] args) throws InterruptedException {
-        int n = 5_000_000; // Tamaño del arreglo a ordenar
+        int n = 1_000_000; // Tamaño del arreglo a ordenar
         int[] array = new int[n];
 
         // Rellenamos el arreglo con números aleatorios
